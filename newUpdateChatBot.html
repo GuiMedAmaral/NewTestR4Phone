@@ -34,10 +34,10 @@
 		embedded_svc.settings.entryFeature = 'LiveAgent';
 
 		embedded_svc.init(
-			'https://tnsi--r4omni.sandbox.my.salesforce.com',
-			'https://tnsi--r4omni.sandbox.my.site.com/TNSI',
+			'https://tnsi--rspilot.sandbox.my.salesforce.com',
+			'https://tnsi--rspilot.sandbox.my.site.com/TNSI',
 			gslbBaseURL,
-			'00D8G000000vYrJ',
+			'00D8F0000019EmK',
 			'R4_Web_Chat_queue',
 			{
 				baseLiveAgentContentURL: 'https://c.la5-c1cs-ia5.salesforceliveagent.com/content',
@@ -52,7 +52,7 @@
 
 	if (!window.embedded_svc) {
 		var s = document.createElement('script');
-		s.setAttribute('src', 'https://tnsi--r4omni.sandbox.my.salesforce.com/embeddedservice/5.0/esw.min.js');
+		s.setAttribute('src', 'https://tnsi--rspilot.sandbox.my.salesforce.com/embeddedservice/5.0/esw.min.js');
 		s.onload = function() {
 			initESW(null);
 		};
